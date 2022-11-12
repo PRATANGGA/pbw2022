@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #A5BECC;
+
+}
+.wrapper {
+    width: 1000px;
+    margin:auto;
+    position:relative;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    display: flex;
+}
+.menu {
+    display: flex;
+}
+
+nav ul li a{
+    width: 100%;
+    display:flex;
+    line-height: 75px;
+    top: 10px;
+    padding: 10px;
+    color: aliceblue;
+   
+}
+li {
+    display: inline-block;
+
+}
+.buttonku {
+    font-size: 100px;
+    display:flex;
+    justify-content: center;
+    justify-content: top;
+    align-items: center;
+    padding: 15px;
+
+}
