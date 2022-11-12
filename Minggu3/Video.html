@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Styleku.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINGGU3</title>
+</head>
+<body>
+  <div style="text-align: center; padding: 40px; background-color: #243A73; color: #A5BECC;">
+    <div style="display: flex; justify-content: space-between;">
+        <h1>YONDEXTUBE</h1>
+        <nav>
+        <ul style="display: flex;">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="genre">GENRE</a></li>
+            <li><a href="movie">MOVIE</a></li>
+            <li><a href="about">ABOUT</a></li>
+        </ul>
+        </nav>
+    </div>
+  </div>
+    
+    <div style="text-align: center;">
+        <br><br><br><br>
+        <video controls src="Media/music21.mp4" width="900" id="myVideo">
+            <track default src="Media/subtitle.vtt">
+        </video>
+    </div>
+    
+    <div class="buttonku">
+    <button onclick="playVid()" type="button" href="Media/music21.mp4">Play Video</button>
+    <button onclick="pauseVid()" type="button" href="Media/music21.mp4">Pause Video</button>
+    <button onclick="enableAutoplay()" type="button" href="Media/music21.mp4">Auto Play</button>
+    <button onclick="disableAutoplay()" type="button" href="Media/music21.mp4">Disable Play</button>
+    <button onclick="durationVid()" type="button" href="Media/music21.mp4">Durasi Video</button>
+
+    </div>
+
+
+    <script>
+        var vid= document.getElementById ("myVideo")
+        document.getElementById("myVideo").src = "Media/music21.mp4";
+        function playVid(){
+            vid.play();
+        }
+
+        function pauseVid(){
+            vid.pause();
+        }
+        function enableAutoplay(){
+            vid.enableAutoplay();
+
+        }
+        function disableAutoplay(){
+            vid.disableAutoplay();
+        }
+        function durationVid(){
+            vid.durationVid();
+        }
+            
+        
+    </script>
+    
+</body>
+</html>
