@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fuzzy Bubbles', cursive;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Fuzzy Bubbles', cursive; 
+            font-weight: 500;
+            font-size: 30px;
+            background-color: brown;
+            padding: 10px 20px;
+            margin: 10px 30px 10px 30px;
+            border-radius: 8px;
+            transition: 1s;
+        }
+            a:active {
+                transform: scale(0.2);
+                background-color:#FFFF;
+
+            }
+            .klik {
+               padding: 20px ;
+
+            }
+            table, th, td{
+                border: 1px solid black;
+                border: none;
+                border-radius: 10px;
+            }
+            table {
+                border-collapse: collapse;
+                width: 500px;
+                height: 200px;
+
+
+
+            }
+            th {
+                vertical-align: center;
+                background-color: coral;
+            }
+            td {
+                vertical-align: bottom;
+            }
+            tr:nth-child(even) {
+                background-color: aqua;
+            }
+            tr:nth-child(odd) {
+                background-color: darkgreen;
+            }
+            .container {
+                width: fit-content;
+                height: fit-content;
+                border: 2px solid black;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            input[type=text]{
+                color: blue;
+            }
+            input, select, button{
+                width: 500px;
+                margin: 20px 0;
+                display: block;
+                border: 1px solid #d9d9d9;
+                padding: 10px 20px;
+            }
+            button {
+                color: #FFFF;
+                background-color: black;
+                cursor: pointer;
+                transition: 0.3s;
+
+            }
+            button:active{
+                transform: rotate(360deg);
+            }
+
+
+
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta id, asperiores porro, praesentium, quis dolore hic fugiat debitis dolor pariatur voluptatem iste suscipit veritatis quod! Excepturi eligendi quasi, necessitatibus maiores facilis sed odio? Ducimus quae ullam facere a eos cumque incidunt, maiores modi illum, reiciendis nulla quia unde fugit. Architecto nobis tenetur velit, repudiandae cupiditate eaque itaque enim magnam vel perferendis repellat tempore iusto impedit facere provident quasi minima eius odio accusamus ex? Deserunt adipisci praesentium commodi, exercitationem maxime quis maiores dolor odit iste numquam expedita et molestias veniam corrupti unde autem temporibus ducimus consequatur minima sit harum. Dignissimos, rem?
+    <br><br>
+    <a href="#">pencet</a>
+    <a href="klik">pencet aku lagi!</a>
+<br><br><br>
+<table>
+    <tr>
+        <th>Nama</th>
+        <th>Nim</th>
+        <th>Jurusan</th>
+    </tr>
+    <tr>
+        <td>Jupri</td>
+        <td>A11202214100</td>
+        <td>ilkom</td>
+    </tr>
+    <tr>
+        <td>udin</td>
+        <td>A11202214100</td>
+        <td>ilkom</td>
+    </tr>
+    <tr>
+        <td>Parno</td>
+        <td>A11202214100</td>
+        <td>ilkom</td>
+    </tr>
+    <tr>
+        <td>Parno</td>
+        <td>A11202214100</td>
+        <td>ilkom</td>
+    </tr>
+    <tr>
+        <td>Parno</td>
+        <td>A11202214100</td>
+        <td>ilkom</td>
+    </tr>
+
+</table>
+<br><br>
+<div class="container">
+    <form action="">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" placeholder="Nama...">
+
+        <label for="Nim">Nim</label>
+        <input type="text" id="nim" placeholder="Nim...">
+
+        <label for="nama">jurusan</label>
+        <select name="" id="jurusan">
+            <option value="">Informatika</option>
+            <option value="">Sistem Informasi</option>
+            <option value="">DKV</option>
+        </select>
+
+        <button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>

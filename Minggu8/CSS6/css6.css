@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+}
+#header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategray;
+    float: left;
+
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+}
+.navbar ul{
+    float: right;
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:active{
+    color: chocolate;
+    transform: scale(0.5);   
+}
+article{
+    position: relative;
+    top: 100px;
+    color: aqua;
+}
+ol {
+    color: blueviolet;
+}
+footer{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
